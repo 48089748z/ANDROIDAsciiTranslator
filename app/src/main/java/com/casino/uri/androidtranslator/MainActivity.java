@@ -125,7 +125,7 @@ public class MainActivity extends AppCompatActivity
     {
         new AlertDialog.Builder(this)
                 .setTitle("    INFORMATION")
-                .setMessage("This application translates ASCII to TEXT & TEXT to ASCII.\n\nIf you enter invalid ASCII numbers, nothing will be shown.\n\nThe text of the translation is selectable, so you can copy & paste it.")
+                .setMessage("This application translates ASCII to TEXT & TEXT to ASCII.\n\nIf you enter invalid ASCII numbers, nothing will be shown.\n\nThe text of the translation is selectable, so you can copy & paste it.\n\nBy: uRi ;)")
                 .setPositiveButton("CLOSE", new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int which) {}
                 })
